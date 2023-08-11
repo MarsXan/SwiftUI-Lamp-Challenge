@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		824D37952A84F36D00551B61 /* LampChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37942A84F36D00551B61 /* LampChallengeApp.swift */; };
-		824D37972A84F36D00551B61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37962A84F36D00551B61 /* ContentView.swift */; };
+		824D37972A84F36D00551B61 /* LampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37962A84F36D00551B61 /* LampView.swift */; };
 		824D37992A84F37100551B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824D37982A84F37100551B61 /* Assets.xcassets */; };
 		824D379C2A84F37100551B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824D379B2A84F37100551B61 /* Preview Assets.xcassets */; };
 		824D37A62A84F37100551B61 /* LampChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37A52A84F37100551B61 /* LampChallengeTests.swift */; };
 		824D37B02A84F37100551B61 /* LampChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37AF2A84F37100551B61 /* LampChallengeUITests.swift */; };
 		824D37B22A84F37100551B61 /* LampChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D37B12A84F37100551B61 /* LampChallengeUITestsLaunchTests.swift */; };
+		82A2DFF22A867558002CCEDB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFF12A867558002CCEDB /* .gitignore */; };
+		82A2DFF62A867587002CCEDB /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF52A867587002CCEDB /* View+Ext.swift */; };
+		82A2DFF82A86762E002CCEDB /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF72A86762E002CCEDB /* Rope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		824D37912A84F36D00551B61 /* LampChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LampChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824D37942A84F36D00551B61 /* LampChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampChallengeApp.swift; sourceTree = "<group>"; };
-		824D37962A84F36D00551B61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		824D37962A84F36D00551B61 /* LampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampView.swift; sourceTree = "<group>"; };
 		824D37982A84F37100551B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824D379B2A84F37100551B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		824D37A12A84F37100551B61 /* LampChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LampChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		824D37AB2A84F37100551B61 /* LampChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LampChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		824D37AF2A84F37100551B61 /* LampChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampChallengeUITests.swift; sourceTree = "<group>"; };
 		824D37B12A84F37100551B61 /* LampChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82A2DFF12A867558002CCEDB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		82A2DFF52A867587002CCEDB /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		82A2DFF72A86762E002CCEDB /* Rope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		824D37882A84F36D00551B61 = {
 			isa = PBXGroup;
 			children = (
+				82A2DFF12A867558002CCEDB /* .gitignore */,
 				824D37932A84F36D00551B61 /* LampChallenge */,
 				824D37A42A84F37100551B61 /* LampChallengeTests */,
 				824D37AE2A84F37100551B61 /* LampChallengeUITests */,
@@ -94,8 +101,9 @@
 		824D37932A84F36D00551B61 /* LampChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				82A2DFF42A86756F002CCEDB /* View */,
+				82A2DFF32A867566002CCEDB /* Utils */,
 				824D37942A84F36D00551B61 /* LampChallengeApp.swift */,
-				824D37962A84F36D00551B61 /* ContentView.swift */,
 				824D37982A84F37100551B61 /* Assets.xcassets */,
 				824D379A2A84F37100551B61 /* Preview Content */,
 			);
@@ -125,6 +133,23 @@
 				824D37B12A84F37100551B61 /* LampChallengeUITestsLaunchTests.swift */,
 			);
 			path = LampChallengeUITests;
+			sourceTree = "<group>";
+		};
+		82A2DFF32A867566002CCEDB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82A2DFF52A867587002CCEDB /* View+Ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		82A2DFF42A86756F002CCEDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				824D37962A84F36D00551B61 /* LampView.swift */,
+				82A2DFF72A86762E002CCEDB /* Rope.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				824D379C2A84F37100551B61 /* Preview Assets.xcassets in Resources */,
+				82A2DFF22A867558002CCEDB /* .gitignore in Resources */,
 				824D37992A84F37100551B61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824D37972A84F36D00551B61 /* ContentView.swift in Sources */,
+				824D37972A84F36D00551B61 /* LampView.swift in Sources */,
 				824D37952A84F36D00551B61 /* LampChallengeApp.swift in Sources */,
+				82A2DFF62A867587002CCEDB /* View+Ext.swift in Sources */,
+				82A2DFF82A86762E002CCEDB /* Rope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
