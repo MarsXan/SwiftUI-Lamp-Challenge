@@ -17,7 +17,7 @@
 		82A2DFF22A867558002CCEDB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFF12A867558002CCEDB /* .gitignore */; };
 		82A2DFF62A867587002CCEDB /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF52A867587002CCEDB /* View+Ext.swift */; };
 		82A2DFF82A86762E002CCEDB /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF72A86762E002CCEDB /* Rope.swift */; };
-		82A2DFFD2A868465002CCEDB /* lamp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFFC2A868465002CCEDB /* lamp.gif */; };
+		82A2DFFF2A86853C002CCEDB /* lamp2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFFE2A86853C002CCEDB /* lamp2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		82A2DFF12A867558002CCEDB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		82A2DFF52A867587002CCEDB /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		82A2DFF72A86762E002CCEDB /* Rope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
-		82A2DFFC2A868465002CCEDB /* lamp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lamp.gif; path = ../../../../../lamp.gif; sourceTree = "<group>"; };
+		82A2DFFE2A86853C002CCEDB /* lamp2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lamp2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 		82A2DFF92A867EA0002CCEDB /* statics */ = {
 			isa = PBXGroup;
 			children = (
-				82A2DFFC2A868465002CCEDB /* lamp.gif */,
+				82A2DFFE2A86853C002CCEDB /* lamp2.gif */,
 			);
 			path = statics;
 			sourceTree = "<group>";
@@ -268,8 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				824D379C2A84F37100551B61 /* Preview Assets.xcassets in Resources */,
+				82A2DFFF2A86853C002CCEDB /* lamp2.gif in Resources */,
 				82A2DFF22A867558002CCEDB /* .gitignore in Resources */,
-				82A2DFFD2A868465002CCEDB /* lamp.gif in Resources */,
 				824D37992A84F37100551B61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
