@@ -17,6 +17,7 @@
 		82A2DFF22A867558002CCEDB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFF12A867558002CCEDB /* .gitignore */; };
 		82A2DFF62A867587002CCEDB /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF52A867587002CCEDB /* View+Ext.swift */; };
 		82A2DFF82A86762E002CCEDB /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2DFF72A86762E002CCEDB /* Rope.swift */; };
+		82A2DFFB2A867EB7002CCEDB /* lamp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82A2DFFA2A867EB7002CCEDB /* lamp.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		82A2DFF12A867558002CCEDB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		82A2DFF52A867587002CCEDB /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		82A2DFF72A86762E002CCEDB /* Rope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
+		82A2DFFA2A867EB7002CCEDB /* lamp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lamp.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		824D37882A84F36D00551B61 = {
 			isa = PBXGroup;
 			children = (
+				82A2DFF92A867EA0002CCEDB /* statics */,
 				82A2DFF12A867558002CCEDB /* .gitignore */,
 				824D37932A84F36D00551B61 /* LampChallenge */,
 				824D37A42A84F37100551B61 /* LampChallengeTests */,
@@ -150,6 +153,14 @@
 				82A2DFF72A86762E002CCEDB /* Rope.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		82A2DFF92A867EA0002CCEDB /* statics */ = {
+			isa = PBXGroup;
+			children = (
+				82A2DFFA2A867EB7002CCEDB /* lamp.gif */,
+			);
+			path = statics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				824D379C2A84F37100551B61 /* Preview Assets.xcassets in Resources */,
 				82A2DFF22A867558002CCEDB /* .gitignore in Resources */,
+				82A2DFFB2A867EB7002CCEDB /* lamp.gif in Resources */,
 				824D37992A84F37100551B61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
